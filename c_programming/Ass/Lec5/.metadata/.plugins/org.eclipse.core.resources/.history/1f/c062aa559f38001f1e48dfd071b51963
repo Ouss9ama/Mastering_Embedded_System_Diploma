@@ -1,0 +1,55 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 22, 2024
+ *      Author: oussama
+ */
+
+//
+//#include<stdio.h>
+//
+//int base;
+//int power;
+//int oss(int nb);
+//int main()
+//{
+//
+//	int result;
+//	setvbuf(stdout, NULL, _IONBF, 0);
+//	setvbuf(stderr, NULL, _IONBF, 0);
+//
+//	printf("Enter base number:\n");
+//	scanf("%d",&base);
+//	printf("Enter power number:\n");
+//	scanf("%d",&power);
+//	result=oss(base);
+//	printf("%d^%d=%d",base,power,result);
+//}
+//
+//int oss(int nb)
+//{
+//
+//	if(power==0)
+//	{
+//		return 1;
+//	}
+//	if(power==1)
+//	{
+//		return nb;
+//	}
+//	power--;
+//	return nb*oss(nb);
+//}
+
+#include <stdio.h>
+
+int n;
+int main()
+{
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	printf("Enter the number: \n");
+	scanf("%d",&n);
+
+

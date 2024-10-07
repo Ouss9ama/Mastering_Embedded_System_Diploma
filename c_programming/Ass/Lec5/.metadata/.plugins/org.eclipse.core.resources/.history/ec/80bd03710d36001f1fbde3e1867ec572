@@ -1,0 +1,65 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 22, 2024
+ *      Author: oussama
+ */
+
+//
+//#include<stdio.h>
+//
+//int base;
+//int power;
+//int oss(int nb);
+//int main()
+//{
+//
+//	int result;
+//	setvbuf(stdout, NULL, _IONBF, 0);
+//	setvbuf(stderr, NULL, _IONBF, 0);
+//
+//	printf("Enter base number:\n");
+//	scanf("%d",&base);
+//	printf("Enter power number:\n");
+//	scanf("%d",&power);
+//	result=oss(base);
+//	printf("%d^%d=%d",base,power,result);
+//}
+//
+//int oss(int nb)
+//{
+//
+//	if(power==0)
+//	{
+//		return 1;
+//	}
+//	if(power==1)
+//	{
+//		return nb;
+//	}
+//	power--;
+//	return nb*oss(nb);
+//}
+
+#include <stdio.h>
+void bittodec(int n);
+int bit[20];
+int i;
+int n;
+int main()
+{
+	printf(" Enter the number:\n");
+	scanf("%d",&n);
+	bittodec(n);
+	printf("the 4th least significant number is:", bit[i-3]);
+}
+
+void bittodec(int n)
+
+{
+	for(i=0; n>0; i++)
+	{
+		int bit[20]= n % 2;
+		n=n/2;
+	}
+}
