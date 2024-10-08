@@ -6,14 +6,9 @@ This repository contains my labs, assignments, and projects related to the diffe
 
 ## Contents (till now)
 
-  div style="display: flex; align-items: center;">
-    <img src="https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-brightgreen" alt="C Programming" style="height: 20px; margin-right: 8px; vertical-align: middle;"/>
-    <a href="C_Programming" style="font-size: 14px; line-height: 20px;">C_Programming</a>
-</div>
-<div style="display: flex; align-items: center;">
-    <img src="https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange" alt="Embedded C" style="height: 20px; margin-right: 8px; vertical-align: middle;"/>
-    <a href="Embedded_C" style="font-size: 14px; line-height: 20px;">Embedded_C</a>
-</div>
+ ![C Programming](https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-brightgreen)  [C_Programming](C_Programming)  
+![Embedded C](https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange)  [Embedded_C](Embedded_C)
+
 
 
 Feel free to explore the code and check out my progress! 🚀
