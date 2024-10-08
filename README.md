@@ -6,8 +6,8 @@ This repository contains my labs, assignments, and projects related to the diffe
 
 ## Contents (till now)
 
- ![C Programming](https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-brightgreen)  [C_Programming](C_Programming)  
-![Embedded C](https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange)  [Embedded_C](Embedded_C)
+ ![C Programming](https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-brightgreen)  [C_Programming](C_Programming/)  
+![Embedded C](https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange)  [Embedded_C](Embedded_C/)
 
 
 
