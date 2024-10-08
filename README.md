@@ -6,10 +6,10 @@ This repository contains my labs, assignments, and projects related to the diffe
 
 ## Contents (till now)
 
- [![C Programming](https://your-image-url-for-c-programming.com)](C_Programming)
+ ![C Programming][(https://your-image-url-for-c-programming.com)](C_Programming)
 
  
- [![Embedded C](https://your-image-url-for-embedded-c.com)](Embedded_C)
+ ![Embedded C][(https://your-image-url-for-embedded-c.com)](Embedded_C)
 
 
 Feel free to explore the code and check out my progress! 🚀
