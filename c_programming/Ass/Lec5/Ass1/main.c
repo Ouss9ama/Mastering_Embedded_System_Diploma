@@ -11,7 +11,7 @@ int prime(int n);
 void print(int a,int b);
 	int x;
 	int y;
-	int j;
+	int i,j;
 int main()
 {
 
@@ -26,7 +26,7 @@ int main()
 
 	  int prime(int n)
 	  {
-		  for(int i=2;i<=(n/2);i++)
+		  for(i=2;i<=(n/2);i++)
 		  {
 			 if(n%i==0)
 			 {
@@ -40,16 +40,12 @@ int main()
 	void print(int a,int b)
 	{
 
-	  for (int j=a;j<=b;j++)
+	  for (j=a;j<=b;j++)
 	  	{
 	  		if(prime(j)==1)
 	  		{
 	  			printf("%d  ",j);
 	  		}
-	  		else
-	  		{
 
-	  		}
-	  	}
 	}
 

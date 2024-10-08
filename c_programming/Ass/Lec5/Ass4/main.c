@@ -5,72 +5,38 @@
  *      Author: oussama
  */
 
-//
-//#include<stdio.h>
-//
-//int base;
-//int power;
-//int oss(int nb);
-//int main()
-//{
-//
-//	int result;
-//	setvbuf(stdout, NULL, _IONBF, 0);
-//	setvbuf(stderr, NULL, _IONBF, 0);
-//
-//	printf("Enter base number:\n");
-//	scanf("%d",&base);
-//	printf("Enter power number:\n");
-//	scanf("%d",&power);
-//	result=oss(base);
-//	printf("%d^%d=%d",base,power,result);
-//}
-//
-//int oss(int nb)
-//{
-//
-//	if(power==0)
-//	{
-//		return 1;
-//	}23
-//	if(power==1)
-//	{
-//		return nb;
-//	}
-//	power--;
-//	return nb*oss(nb);
-//}
+ #include<stdio.h>
 
-#include <stdio.h>
-#include <string.h>
-char name[]="OussOuss";
-char user[15];
-char result;
+int base;
+int power;
+int oss(int nb,int p);
 int main()
 {
+
+	int result;
 	setvbuf(stdout, NULL, _IONBF, 0);
 	setvbuf(stderr, NULL, _IONBF, 0);
-	printf(" Enter the username:\n");
-	gets(user);
-	result = compare(name,user);
-	if(result==1)
-	{
-		printf("the username is correct");
-	}
-	else
-	{
-		printf("the username is wrong");
-	}
+
+	printf("Enter base number:\n");
+	scanf("%d",&base);
+	printf("Enter power number:\n");
+	scanf("%d",&power);
+	result=oss(base,power);
+	printf("%d^%d=%d",base,power,result);
 }
 
-int compare(char x[],char y[])
-
+int oss(int nb, int p)
 {
-	 if (strcmp(x,y)==0)
-	 {
-		 return 1;
-	 }
-	 else
-		 return 0;
+
+	if(p==0)
+	{
+		return 1;
+	} 
+	if(p==1)
+	{
+		return nb;
+	}
+ 
+	return nb*oss(nb,p-1);
 }
 
