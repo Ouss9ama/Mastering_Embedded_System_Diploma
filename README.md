@@ -10,6 +10,7 @@ This repository contains my labs, assignments, and projects related to different
     <img src="https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-brightgreen" alt="C Programming" style="margin-bottom: 3px;" />
     <a href="C_Programming" style="margin-left: 5px;">C_Programming</a>
 </div>
+
 <div style="display: flex; align-items: center;">
     <img src="https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange" alt="Embedded C" style="margin-bottom: 3px;" />
     <a href="Embedded_C" style="margin-left: 5px;">Embedded_C</a>
