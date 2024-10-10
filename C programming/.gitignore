@@ -1,9 +1,0 @@
-# Ignore IDE-specific files
-.project
-.cproject
-.settings/
-
-# Ignore debug and temporary files
-debug/
-*.log
-/.metadata/
