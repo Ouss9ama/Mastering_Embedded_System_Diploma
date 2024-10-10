@@ -6,8 +6,8 @@ This repository contains my labs, assignments, and projects related to the diffe
 
 ## Contents (till now)
 
- [![C Programming](https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-green?style=for-the-badge)](https://github.com/your-username/Mastering_Embedded_System_Diploma/tree/main/path-to-C-Programming-folder)
-[![Embedded C](https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange?style=for-the-badge)](https://github.com/your-username/Mastering_Embedded_System_Diploma/tree/main/path-to-Embedded-C-folder)
+ [![C Programming](https://img.shields.io/badge/C%20Programming-Ready%20to%20Explore-green?style=for-the-badge)](https://github.com/Ouss9ama/Mastering_Embedded_System_Diploma/tree/master/C%20programming)
+[![Embedded C](https://img.shields.io/badge/Embedded%20C-Under%20Construction-orange?style=for-the-badge)](https://github.com/Ouss9ama/Mastering_Embedded_System_Diploma/tree/master/Embedded%20C)
 
 
 Feel free to explore the code and check out my progress! 🚀
