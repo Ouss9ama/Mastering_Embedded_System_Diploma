@@ -1,0 +1,9 @@
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:11:6:my_wait	24	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:20:6:LCD_KICK	8	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:32:6:LCD_WRITE_COMMAND	16	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:46:6:LCD_INIT	8	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:130:6:LCD_GO_TO_XY	16	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:148:6:LCD_clear_screen	8	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:154:6:LCD_IS_BUSY	16	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:253:6:LCD_WRITE_CHAR	16	static
+../STM32F103C6_Drivers/LCD_DRIVER/lcd.c:267:6:LCD_WRITE_STRING	24	static
