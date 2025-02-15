@@ -36,9 +36,4 @@ This repository documents my journey through the **Mastering Embedded Systems Di
 
 ---
 
-## 📊 **Overall Progress**
 ![Progress](https://progress-bar.dev/60/?title=Completed)
-
----
-
- 
