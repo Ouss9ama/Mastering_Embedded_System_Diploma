@@ -30,4 +30,12 @@ This lab focuses on understanding **Privileged and Unprivileged execution modes*
 - **IPSR Register**: Indicates the current exception number.
 - **CONTROL Register**: Determines the execution privilege level and stack usage.
 
- 
+ ## Execution Modes
+
+### **Thread Mode**
+Normal execution mode for user applications.  
+![Thread Mode Screenshot](Thread_mode.png)
+
+### **Handler Mode**
+Activated when an exception or interrupt occurs.  
+![Handler Mode Screenshot](handler_mode.png)
