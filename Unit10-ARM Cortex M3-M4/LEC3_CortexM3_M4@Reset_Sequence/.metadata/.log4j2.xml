@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <ThresholdFilter level="INFO"/>
+    <Appenders>
+        <RollingFile name="DEBUGFILE" fileName="C:/Users/oussa/OneDrive/Documents/ES/11-Mastering ARM CORTEX_M3_M4/LEC3_CortexM3_M4@Reset_Sequence/.metadata/.ide.log" filePattern="C:/Users/oussa/OneDrive/Documents/ES/11-Mastering ARM CORTEX_M3_M4/LEC3_CortexM3_M4@Reset_Sequence/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%p] %c{1}:%L - %m%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="50MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="DEBUGFILE" />
+        </Root>
+    </Loggers>
+</Configuration>

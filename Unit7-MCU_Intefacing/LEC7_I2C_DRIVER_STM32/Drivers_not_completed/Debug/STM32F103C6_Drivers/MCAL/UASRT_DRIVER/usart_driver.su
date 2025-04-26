@@ -1,0 +1,9 @@
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:48:6:MCAL_UART_INIT	24	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:113:6:MCAL_UART_DeINIT	16	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:134:6:MCAL_UART_SEND_DATA	24	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:156:6:MCAL_UART_WAIT_TC	16	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:164:6:MCAL_UART_RECIEVE_DATA	24	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:199:6:MCAL_UART_GPIO_SET_PINS	24	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:296:6:USART1_IRQHandler	8	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:301:6:USART2_IRQHandler	8	static
+../STM32F103C6_Drivers/MCAL/UASRT_DRIVER/usart_driver.c:306:6:USART3_IRQHandler	8	static
